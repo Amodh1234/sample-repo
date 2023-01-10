@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.parent {
+    background-color: #000;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.child {
+    background-color: #FDD2BF;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        background-color: #FCD8D4;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #ECD662;
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        background-color: #A3A487;
+    }
+}
+
+.my-style {
+    background-color: rgb(183, 183, 212);
+    color: blueviolet;
+    border: 3px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+
+#my-id {
+    background-color: brown; // comments in css
+
+}
+
+p {
+    background-color: blueviolet;
+    color: darkseagreen;
+}
+
+// assignment
+// line height, letter spacing, text align, font family, font page
