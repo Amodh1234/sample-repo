@@ -22,6 +22,46 @@ body {
     margin: 100px;
 }
 
+.container {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: red;
+    transition-property: width;
+    transition-duration: .5s;
+}
+
+.container:hover {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: green;
+    transform: rotate3d(180deg);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    animation: 10s abc infinite;
+    animation-delay: 2s;
+}
+
+@keyframes abc {
+    20% {
+        margin-left: 500px;
+        background-color: red;
+    }
+
+    50% {
+        margin-left: 200px;
+        background-color: black;
+        transform: rotate(30deg);
+    }
+}
+
+
+
 
 @media (min-width: 768px) {
     body {
